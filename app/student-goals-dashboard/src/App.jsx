@@ -1,23 +1,18 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Dashboard from './pages/Dashboard';
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Dashboard from "./pages/Dashboard"
+import Sidebar from "./components/Sidebar"
 
-const App = () => {
+function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="flex">
         <Sidebar />
-        <div className="flex-1">
-          <Header />
-          <Routes>
-            <Route path="/" element={<Dashboard />} />
-          </Routes>
-        </div>
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+        </Routes>
       </div>
-    </Router>
-  );
-};
+    </BrowserRouter>
+  )
+}
 
-export default App;
+export default App
