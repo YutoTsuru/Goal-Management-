@@ -1,0 +1,41 @@
+/goal-management-app/goal-management-app/src/pages/Dashboard/Dashboard.module.css
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f9fafb; /* Tailwind's gray-100 */
+}
+
+.header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.taskList {
+    margin-top: 20px;
+}
+
+.progressSummary {
+    margin-top: 20px;
+}
+
+.performanceChart {
+    margin-top: 20px;
+}
+
+.healthData {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.healthItem {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.healthItem:last-child {
+    margin-right: 0;
+}
