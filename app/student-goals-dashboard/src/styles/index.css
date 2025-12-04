@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-100 text-gray-900;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+}
+
+.container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.card {
+    @apply bg-white shadow-md rounded-lg p-4;
+}
+
+.progress-bar {
+    @apply h-2 bg-blue-500 rounded;
+}
+
+.sidebar {
+    @apply bg-gray-800 text-white w-64 h-full;
+}
+
+.header {
+    @apply bg-white shadow-md p-4;
+}
+
+.goal-list {
+    @apply space-y-4;
+}
