@@ -1,0 +1,29 @@
+{
+  "name": "student-goals-dashboard",
+  "version": "1.0.0",
+  "description": "A student goal management application dashboard.",
+  "main": "src/index.jsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tailwindcss": "^3.0.0",
+    "postcss": "^8.0.0",
+    "autoprefixer": "^10.0.0"
+  },
+  "devDependencies": {
+    "vite": "^3.0.0"
+  },
+  "keywords": [
+    "react",
+    "tailwindcss",
+    "dashboard",
+    "goals"
+  ],
+  "author": "",
+  "license": "MIT"
+}
